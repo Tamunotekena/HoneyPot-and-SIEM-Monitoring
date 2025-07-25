@@ -1,7 +1,32 @@
 <h1>HoneyPot_SIEM_Monitoring_</h1>
 
 <h2>Description</h2>
-In this Home Lab, I set up a basic home SOC in Azure from scratch. Using a free Azure subscription, I create a virtual machine (VM), opening it to the internet as a honeypot, and forwarding logs to a central repository. I then integrate Microsoft Sentinel to analyze real-world attack data and then go ahead to create an automation rule for Security Incidents
+In this Home Lab, I set up a basic home SOC in Azure from scratch. Using a free Azure subscription, I create a virtual machine (VM), opening it to the internet as a honeypot, and forwarding logs to a central repository. I then integrate Microsoft Sentinel to analyze real-world attack data and then go ahead to create an automation rule for Security Incidents.
+<br />
+<br />
+
+<b>Evidence Collected</b>
+  
+- <b>Security event logs (Event ID 4625)</b>
+- <b>Source IP addresses</b>
+- <b>Geographical location data</b>
+- <b>Timestamps of malicious activity</b>
+
+<b>Lessons Learned</b>
+
+- <b>Importance of proper log collection and centralization</b>
+- <b>Effectiveness of visualization for security monitoring</b>
+- <b>Need for automated alerting on suspicious activity</b>
+
+<b>Next Steps</b>
+
+- <b>Continue monitoring for additional unauthorized access attempts</b>
+- <b>Expand logging to include other security events</b>
+- <b>Create automated Sentinel playbooks for similar incidents</b>
+
+<b>Closure</b>
+- This incident is considered resolved as the unauthorized access attempts were expected behavior in the honeypot environment. No production systems were impacted. The lab successfully demonstrated Azure Sentinel's capabilities for detecting and investigating security incidents.
+  
 <br />
 
 <h2>Environment</h2>
